@@ -1,0 +1,21 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+}
+
+.status {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: var(--card-background);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  box-shadow: var(--card-shadow);
+}
