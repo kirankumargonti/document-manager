@@ -31,7 +31,7 @@ const ImageOverlay: React.FC<ImageOverlayProps> = React.memo(
           &times;
         </button>
         <img
-          src={`/src/assets/cat${(document.position % 5) + 1}.jpg`}
+          src={`/images/cat${(document.position % 5) + 1}.jpg`}
           alt={document.title}
         />
       </div>

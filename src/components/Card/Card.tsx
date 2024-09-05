@@ -24,7 +24,7 @@ const Card: React.FC<CardProps> = React.memo(({ document, onClick, onDragStart, 
     >
       {!imageLoaded && <div className="spinner" />}
       <img
-        src={`/src/assets/cat${(document.position % 5) + 1}.jpg`}
+        src={`/images/cat${(document.position % 5) + 1}.jpg`}
         alt={document.title}
         onLoad={() => setImageLoaded(true)}
         style={{ display: imageLoaded ? 'block' : 'none' }}
